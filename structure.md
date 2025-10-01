@@ -3,18 +3,24 @@ custom-static-web/
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml
+│
+├── custom_theme/
+│   ├── css/
+│   │   └── custom.css
+│   ├── src/
+│   │   └── css/
+│   │       └── custom.css
+│   └── main.html
+│
 ├── docs/
 │   ├── about.md
 │   ├── index.md
 │   └── projects.md
-├── theme/
-│   ├── main.html
-│   ├── base.html
-│   └── css/
-│       └── style.css
+│
 ├── .gitignore
 ├── mkdocs.yml
 ├── package.json
 ├── postcss.config.js
-└── requirements.txt
+├── README.md
+└── run-typograf.js
 ```
